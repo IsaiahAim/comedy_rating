@@ -37,9 +37,7 @@ X.head(10)
 
 
 #export the processed data and label to the processed folder
-dp.save_data(X, 'train_proc',method='csv', loc='raw')
-dp.save_data(y, 'train_labels',method='csv', loc='raw')
-
-'train_proc.csv'
+dp.save_data(X, 'train_proc')
+dp.save_data(y, 'train_labels')
 
 
